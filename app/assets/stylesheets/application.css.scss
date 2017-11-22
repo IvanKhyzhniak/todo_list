@@ -31,8 +31,6 @@ body {
   background:      -o-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
   background:         linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
   font-family: 'Lato', sans-serif;
-  background-repeat: no-repeat;
-  background-position: right top;
   background-attachment: fixed;
 }
 
@@ -44,17 +42,6 @@ body {
 
 .clearfix:after {
     clear: both;
-}
-
-#notice {
-	text-align: center;
-	font-size: 0.9em;
-	color: $dark;
-	font-weight: 100;
-	//border: 1px solid $white_opaque;
-	//padding: .5em 1em;
-	//display: block;
-	//margin: 1em 25%;
 }
 
 .container {
@@ -86,7 +73,7 @@ body {
 }
 
 .todo_list_sub_title {
-	margin: 0 0 3em 0;
+	margin: 0 0 1em 0;
 	text-align: center;
 	font-size: 0.9em;
 	color: $dark;
