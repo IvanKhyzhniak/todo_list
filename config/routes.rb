@@ -2,9 +2,7 @@ Rails.application.routes.draw do
   
   resources :todo_lists do
     resources :todo_items do
-      member do 
-        patch :complete
-      end
+        put :complete, on: :member
     end
   end
   
