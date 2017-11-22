@@ -23,6 +23,9 @@ class TodoItemsController < ApplicationController
     redirect_to @todo_list, notice: "Todo item completed"
   end
   
+  
+  
+  
   private
   
   def set_todo_list
