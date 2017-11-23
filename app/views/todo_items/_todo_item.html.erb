@@ -15,8 +15,9 @@
     </div>
   <% else %>
     <div class="complete">
-      <%= link_to complete_todo_list_todo_item_path(@todo_list, todo_item.id), method: :put do %>
-        <i style="opacity: 0.4;" class="fa fa-check"></i>
+      <%= link_to complete_todo_list_todo_item_path(@todo_list, todo_item.id),
+                                                                method: :put do %>
+        <i style="opacity: 0.8;" class="fa fa-check"></i>
       <% end %>   
     </div>
     <div class="todo_item">
