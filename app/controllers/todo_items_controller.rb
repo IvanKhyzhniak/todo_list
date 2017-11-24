@@ -8,7 +8,6 @@ class TodoItemsController < ApplicationController
   end
   
   def destroy 
-    @todo_item = @todo_list.todo_items.find params[:id]
     @todo_item.destroy
     redirect_to @todo_list
   end
@@ -30,6 +29,6 @@ class TodoItemsController < ApplicationController
   end
   
   def todo_item_params
-    params[:todo_item].permit(:content)
+    params.require(:todo_item).permit(:content)
   end
 end
