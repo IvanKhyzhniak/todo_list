@@ -204,14 +204,14 @@ textarea {
 	height: 200px;
 }
 input[type="submit"] {
-	background: white;
+	background: rgba(250,250,250,.7);
 	outline: none;
 	border: none;
 	height: 40px;
 	border-radius: 4px;
 	width: 25%;
 	display: inline-block;
-	transition: all .4s ease-in-out;
+	transition: all .3s ease-in-out;
 	cursor: pointer;
 	color: $dark;
 	&:hover {
